@@ -28,7 +28,6 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
 
-jobs:
   upload-logs-to-elastic:
     runs-on: ubuntu-latest
     needs: build-java
